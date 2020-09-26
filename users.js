@@ -16,7 +16,7 @@ app.use(cors({
 app.use(bodyParser.json())
 
 app.get("/",function(req,res){
-    res.write("<h1>Root Endpoints are ----> </h1>")
+    res.write("<h1>Root Endpoints are ----> GET,POST,PUT,DELETE /users </h1>")
     res.end()
 })
 
